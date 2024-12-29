@@ -2,7 +2,7 @@
 
 Given a Lambda function that is triggered upon the creation of files in an S3 bucket, answer the following:
 1. What is the purpose of the execution role on the Lambda function?
-Ans : Grants the Lambda function permissions to access or interact with other AWS services (for example, allowing s3:PutObject on a bucket).
+<span style="color: red;">Ans : Grants the Lambda function permissions to access or interact with other AWS services (for example, allowing s3:PutObject on a bucket).</span>
    
 2. What is the purpose of the resource-based policy on the Lambda function?
 Ans : Controls who or what can invoke (call) the Lambda function (e.g., allowing S3 to trigger the function upon object creation).
